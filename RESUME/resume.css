@@ -1,0 +1,63 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 800px;
+    margin: 40px auto;
+    background: #f7f9fc;
+    color: #333;
+    line-height: 1.6;
+  }
+  header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  header h1 {
+    margin: 0;
+    font-size: 2.8em;
+    color: #007acc;
+  }
+  header p {
+    font-size: 1.1em;
+    color: #555;
+    margin: 5px 0 0;
+  }
+  section {
+    background: white;
+    padding: 20px 30px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+  }
+  h2 {
+    color: #007acc;
+    border-bottom: 2px solid #007acc;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+  }
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  ul li {
+    margin-bottom: 10px;
+  }
+  .contact-info {
+    margin-top: 8px;
+    font-size: 0.9em;
+  }
+  .contact-info span {
+    margin-right: 15px;
+  }
+  .job-title {
+    font-weight: bold;
+    font-size: 1.1em;
+  }
+  .company-duration {
+    float: right;
+    font-style: italic;
+    color: #666;
+  }
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
